@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sparkles, ArrowRight, Target } from 'lucide-react';
+import { Sparkles, ArrowRight } from 'lucide-react';
 import { useHabit } from '../context';
 import ThemeToggle from './ThemeToggle';
 import { usePostHog } from '../hooks/usePostHog';
@@ -130,8 +130,12 @@ const WelcomeScreen = () => {
       </div>
       <div className="max-w-md w-full bg-white dark:bg-dark-surface rounded-2xl shadow-xl dark:shadow-slate-900/30 p-8 text-center">
         <div className="mb-6">
-          <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full mx-auto mb-4 flex items-center justify-center">
-            <Target className="w-10 h-10 text-white" />
+          <div className="w-20 h-20 rounded-full mx-auto mb-4 flex items-center justify-center">
+            <img 
+              src="https://emoji.slack-edge.com/TSS5W8YQZ/hog-excited/8999998a2f173796.gif" 
+              alt="Hogbit Tracker" 
+              className="w-16 h-16 rounded-full"
+            />
           </div>
           <h1 className="text-3xl font-bold text-gray-900 dark:text-dark-text mb-2">
             Welcome to Hogbit Tracker
