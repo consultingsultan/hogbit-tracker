@@ -134,7 +134,7 @@ const WelcomeScreen = () => {
             <Target className="w-10 h-10 text-white" />
           </div>
           <h1 className="text-3xl font-bold text-gray-900 dark:text-dark-text mb-2">
-            Welcome to Habit Tracker
+            Welcome to Hogbit Tracker
           </h1>
           <p className="text-gray-600 dark:text-dark-muted mb-6">
             Start building better habits today. Track your progress, build streaks, and achieve your goals.
