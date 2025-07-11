@@ -1,8 +1,20 @@
 {
-  "name": "habit-tracker",
+  "name": "hogbit-tracker",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "A modern habit tracking app with PostHog analytics. Track daily habits, build streaks, and visualize your progress.",
+  "keywords": ["habit-tracker", "habits", "productivity", "streak-tracking", "posthog", "analytics", "react", "vite"],
+  "author": "consultingsultan",
+  "license": "MIT",
+  "homepage": "https://consultingsultan.github.io/hogbit-tracker/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/consultingsultan/hogbit-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/consultingsultan/hogbit-tracker/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
